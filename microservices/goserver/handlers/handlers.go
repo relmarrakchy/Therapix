@@ -16,12 +16,12 @@ var database = "users"
 
 func init() {
 	auth := &core.IamAuthenticator{
-		ApiKey: "xdF3p0dLcyuooAGRb8ZOQxH1buMP9x5i8lY-bgMFBOA5",
+		ApiKey: "------------------------------------------------",
 	}
 
 	options := &cloudantv1.CloudantV1Options{
 		Authenticator: auth,
-		URL:           "https://apikey-v2-30hw28jg73of98ig13usldgtgtcu1qlcsd1mt4xuigx5:89a2a2f53bc81a1e41fad24809547e41@1f487807-3cc5-4ebb-a502-c791c9eb4b78-bluemix.cloudantnosqldb.appdomain.cloud",
+		URL:           "-------------------------------------------------",
 	}
 
 	var err error
